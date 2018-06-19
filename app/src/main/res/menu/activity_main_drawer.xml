@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/nav_generator"
+            android:icon="@drawable/password_generator"
+            android:title="Password Generator"/>
+        <item
+            android:id="@+id/nav_masterpass"
+            android:icon="@drawable/masterpass"
+            android:title="Master Password">
+
+        </item>
+    </group>
+    <item android:title="HELP">
+    <menu>
+        <item
+            android:id="@+id/nav_set"
+            android:icon="@drawable/lgoout"
+            android:title="Log Out " />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/navigation_aboutus"
+            android:title="About Us" />
+    </menu>
+    </item>
+
+</menu>

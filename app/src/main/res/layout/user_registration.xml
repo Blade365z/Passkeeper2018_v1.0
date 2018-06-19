@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please fill up the mandatory fields."
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        />
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        />
+    <EditText
+
+        android:layout_marginTop="30dp"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:maxLines="1"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="47dp"
+        android:textColor="@android:color/black"
+
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="Email*"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:textAllCaps="false"
+        android:layout_height="47dp" />
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:hint="Pin*"
+        android:maxLines="1"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        android:inputType="numberPassword"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginTop="20dp"
+            android:id="@+id/save"
+
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <TextView
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter all the fields to change Login Password"
+        android:textAlignment="center"/>
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:id="@+id/emailid"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:id="@+id/logpin"
+        android:inputType="numberPassword"
+        android:hint="Current Pin"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:id="@+id/pass"
+        android:hint="New Pin"
+        android:inputType="numberPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:id="@+id/con_pass"
+        android:hint="Confirm Pin"
+        android:inputType="numberPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="47dp"
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

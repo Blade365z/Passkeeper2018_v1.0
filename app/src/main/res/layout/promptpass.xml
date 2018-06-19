@@ -1,0 +1,28 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/passpromopt"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Passwordprompttextview"
+        android:text="Password"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/Passwordpromptdialog"
+        android:layout_below="@+id/Passwordprompttextview"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

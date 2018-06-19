@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/aboutusid"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo1"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        />
+    <View
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@android:color/black"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A simple material Password Manager application"
+        android:textSize="16sp"
+        android:id="@+id/aboutMe"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="made by Amitabh, Anjali and Diksha."
+        android:textSize="16sp"
+        android:id="@+id/aboutMe2"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App version: 1.0"
+        android:textSize="20sp"
+        android:textColor="#212121"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
